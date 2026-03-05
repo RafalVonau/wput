@@ -140,8 +140,9 @@ struct global_options {
 
   unsigned short int retry_interval;
   unsigned       int speed_limit;
-} opt;
+};
 
+extern struct global_options opt;
 extern _fsession * fsession_queue_entry_point;
 extern char * email_address;
 #ifdef WIN32

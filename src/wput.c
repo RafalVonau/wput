@@ -70,6 +70,8 @@ int  start_ftp();
 int  start_recur_ftp();
 void read_netrc_file(void);
 
+struct global_options opt;
+
 int main(int argc, char *argv[]){
 #ifdef WIN32
 	/* i don't know why, but if i call WSAStartup just once, there is an

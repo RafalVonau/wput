@@ -76,7 +76,7 @@
 /* #undef HAVE_WINSIZE */
 
 /* Define to 1 if you have the <termio.h> header file. */
-#define HAVE_TERMIO 1
+/* #undef HAVE_TERMIO */
 
 
 #define SIZEOF_SHORT 2
